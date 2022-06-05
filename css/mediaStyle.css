@@ -1,0 +1,219 @@
+@media screen and (max-width:576px) {
+    header>h1{
+        font-size: large;
+    }
+
+    .nav.-active{
+        left: 60%;
+        width: 50%;
+        -webkit-transform: skew(0deg);
+    }
+
+    .navbtn{
+        -webkit-transform: skew(0deg);
+        font-size: small;
+    }
+
+    .navbtn>ul{
+        left: 20%;
+    }
+
+    .navbtn.-active{
+        width: 50%;
+        -webkit-transform: skew(0deg);
+    }
+
+    .openButton{
+        left: 85%;
+        border-radius: 40%;
+        z-index: 3;
+    }
+
+    .content1{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 50% 20%;
+        grid-row-gap: 40px;
+        margin-bottom: 120px;
+    }
+
+    .description{
+        font-size: medium;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        line-height: 40px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .video1> video{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        height: 100%;
+    }
+
+    .social_icon{
+        top: 0px;
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .content2{
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 50%;
+        margin-bottom: 180px
+    }
+
+    .content2>p{
+        font-size: small;
+    }
+
+    .Training_schedule{
+        grid-template-rows: 20% 40% 40%;
+        margin-bottom: 100px;
+    }
+
+    .box{
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 40% 10%;
+        margin-bottom: 120px;
+    }
+
+    .box>p{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        font-size: small;
+    }
+
+    .social{
+        margin-top: 50px;
+        left: 0px;
+        top: 0px;
+        grid-row-start: 4;
+        grid-column-start: 1;
+    }
+
+    .box>img{
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin-bottom: 300px;
+    }
+
+    .end{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 765px) {
+    header>h1{
+        font-size: large;
+    }
+
+    .nav.-active{
+        left: 60%;
+        width: 50%;
+        -webkit-transform: skew(0deg);
+    }
+
+    .navbtn{
+        -webkit-transform: skew(0deg);
+        font-size: small;
+    }
+
+    .navbtn>ul{
+        left: 20%;
+    }
+
+    .navbtn.-active{
+        width: 50%;
+        -webkit-transform: skew(0deg);
+    }
+
+    .openButton{
+        left: 90%;
+        border-radius: 40%;
+        z-index: 3;
+    }
+
+    .content1{
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 60% 20%;
+        grid-row-gap: 40px;
+        margin-bottom: 120px;
+    }
+
+    .description{
+        font-size: large;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        line-height: 40px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .video1> video{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        height: 100%;
+    }
+
+    .social_icon{
+        top: 0px;
+        margin-top: 50px;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
+    .content2{
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 50%;
+        margin-bottom: 180px
+    }
+
+    .content2>p{
+        font-size: small;
+    }
+
+    .Training_schedule{
+        grid-template-rows: 20% 40% 40%;
+        margin-bottom: 100px;
+    }
+
+    .box{
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 40% 40% 10%;
+        margin-bottom: 120px;
+    }
+
+    .box>p{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        font-size: small;
+    }
+
+    .social{
+        margin-top: 100px;
+        left: 0px;
+        top: 0px;
+        grid-row-start: 4;
+        grid-column-start: 1;
+    }
+
+    .box>img{
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+    .openButton{
+        left: 96%;
+    }
+
+    .nav.-active{
+        width: 70%;
+    }
+}
