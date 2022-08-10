@@ -1,219 +1,89 @@
 @media screen and (max-width:576px) {
+    header{
+        grid-template-columns: 20% 80%;
+    }
+
     header>h1{
-        font-size: large;
+        font-size: larger;
     }
 
-    .nav.-active{
-        left: 60%;
-        width: 50%;
-        -webkit-transform: skew(0deg);
+    .head-ua{
+        display: none;
     }
 
-    .navbtn{
-        -webkit-transform: skew(0deg);
-        font-size: small;
-    }
-
-    .navbtn>ul{
-        left: 20%;
-    }
-
-    .navbtn.-active{
-        width: 50%;
-        -webkit-transform: skew(0deg);
-    }
-
-    .openButton{
-        left: 85%;
-        border-radius: 40%;
-        z-index: 3;
-    }
-
-    .content1{
+    .wrapper{
         grid-template-columns: 100%;
-        grid-template-rows: 30% 50% 20%;
-        grid-row-gap: 40px;
-        margin-bottom: 120px;
     }
 
-    .description{
-        font-size: medium;
-        margin-top: 0px;
-        margin-bottom: 100px;
-        line-height: 40px;
+    .container{
+       grid-column-start: 1;
+       width: auto;
+    }
+
+    .conteiner-box1{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    
+    .conteiner-box1-video> video{
         grid-column-start: 1;
         grid-row-start: 1;
+        padding: 5px 0 5px 0px;
     }
 
-    .video1> video{
+    .conteiner-box1-description{
         grid-column-start: 1;
         grid-row-start: 2;
-        height: 100%;
     }
 
-    .social_icon{
-        top: 0px;
-        margin-top: 50px;
-        grid-column-start: 1;
+    .conteiner-box1-social_icon{
         grid-row-start: 3;
-    }
-
-    .content2{
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 40% 50%;
-        margin-bottom: 180px
-    }
-
-    .content2>p{
-        font-size: small;
-    }
-
-    .Training_schedule{
-        grid-template-rows: 20% 40% 40%;
-        margin-bottom: 100px;
-    }
-
-    .box{
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 40% 40% 10%;
-        margin-bottom: 120px;
-    }
-
-    .box>p{
-        grid-row-start: 2;
         grid-column-start: 1;
-        font-size: small;
+        grid-column-end: 1;
+        right: 30px;
     }
 
-    .social{
-        margin-top: 50px;
-        left: 0px;
-        top: 0px;
-        grid-row-start: 4;
-        grid-column-start: 1;
-    }
-
-    .box>img{
-        grid-column-start: 1;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        margin-bottom: 300px;
-    }
-
-    .end{
-        font-size: small;
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 765px) {
-    header>h1{
-        font-size: large;
-    }
-
-    .nav.-active{
-        left: 60%;
-        width: 50%;
-        -webkit-transform: skew(0deg);
-    }
-
-    .navbtn{
-        -webkit-transform: skew(0deg);
-        font-size: small;
-    }
-
-    .navbtn>ul{
-        left: 20%;
-    }
-
-    .navbtn.-active{
-        width: 50%;
-        -webkit-transform: skew(0deg);
-    }
-
-    .openButton{
-        left: 90%;
-        border-radius: 40%;
-        z-index: 3;
-    }
-
-    .content1{
+    .conteiner-box2{
         grid-template-columns: 100%;
-        grid-template-rows: 20% 60% 20%;
-        grid-row-gap: 40px;
-        margin-bottom: 120px;
+        grid-template-rows: auto;
     }
 
-    .description{
-        font-size: large;
-        margin-top: 0px;
-        margin-bottom: 100px;
-        line-height: 40px;
+    .conteiner-box2>p{
+        margin: 30px 0px 30px 0px;
+    }
+
+    .conteiner-box2-video{
+        margin-bottom: 30px;
+    }
+
+    .conteiner-box3-item{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    .conteiner-box3-item>h3{
         grid-column-start: 1;
         grid-row-start: 1;
+        margin-bottom: 30px;
     }
 
-    .video1> video{
+    .conteiner-box3-item>img{
         grid-column-start: 1;
         grid-row-start: 2;
-        height: 100%;
+        grid-row-end: 2;
     }
 
-    .social_icon{
-        top: 0px;
-        margin-top: 50px;
+    .conteiner-box3-item>p{
+        margin: 30px 0px 30px 0px;
         grid-column-start: 1;
         grid-row-start: 3;
     }
 
-    .content2{
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 40% 50%;
-        margin-bottom: 180px
-    }
-
-    .content2>p{
-        font-size: small;
-    }
-
-    .Training_schedule{
-        grid-template-rows: 20% 40% 40%;
-        margin-bottom: 100px;
-    }
-
-    .box{
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 40% 40% 10%;
-        margin-bottom: 120px;
-    }
-
-    .box>p{
-        grid-row-start: 2;
-        grid-column-start: 1;
-        font-size: small;
-    }
-
-    .social{
-        margin-top: 100px;
-        left: 0px;
-        top: 0px;
+    .conteiner-box3-item-social_icon{
         grid-row-start: 4;
         grid-column-start: 1;
+        top: 20px;
+        left: 0px;
     }
 
-    .box>img{
-        grid-column-start: 1;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        margin-bottom: 300px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:991px){
-    .openButton{
-        left: 96%;
-    }
-
-    .nav.-active{
-        width: 70%;
-    }
 }

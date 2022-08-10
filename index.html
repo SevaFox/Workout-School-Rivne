@@ -15,98 +15,95 @@
 
 <body>
     <header id="head">
-        <img class="icon" src="img/Icon.jpg" alt="">
+        <img class="head-icon" src="img/Icon.jpg" alt="">
         <h1>Workout School Rivne</h1>
-        <img class="flag" src="img/Flag_of_Ukraine.png" alt="">
+        <img class="head-ua" src="img/Flag_of_Ukraine.png" alt="">
     </header>
-    <div id="navigation" class="nav">
-        <div id="bnt" class="navbtn">
-            <a id="clsbtn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-            <ul id="button">
-                <a href="#head"><li>Початок</li></a>
-                <a href="#cnt2"><li>Що таке варкаут</li></a>
-                <a href="#TS"><li>Розклад занять</li></a>
-                <a href="#cnt3"><li>Тренера</li></a>
-            </ul>
-        </div>
-    </div>
-    <span class="openButton" onclick="openNav()">
-        <li><i class="fa-solid fa-bars"></i></li>
-    </span>
     <div class="wrapper">
         <div class="container">
-            <div class="content1">
-                <div class="video1"><video muted autoplay loop src="video/video1.mp4"></video></div>
-                <ul class="description">
+            <div class="conteiner-box1">
+                <div id="box1-video" class="conteiner-box1-video"><video muted autoplay loop src="video/video1.mp4"></video></div>
+                <ul id="description" class="conteiner-box1-description">
                     <li>Перша у Рівному воркаут школа</li>
                     <li>ЗАПИС - 📲 (066) 1887251 або (096) 7130700</li>
                     <li>💪Workout тренування💪</li>
                     <li>💥Вивчення елементів , Статика - Динаміка💥</li>
                     <li>🔥 Приєднуйся до нас ! 🔥</li>
                 </ul>
-                <div class="social_icon">
+                <div id="box1-social_icon" class="conteiner-box1-social_icon">
                     <ul>
                         <li style="--clr:#c32aa3"><a href="https://www.instagram.com/workout.school.rivne/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li style="--clr:rgb(58, 58, 194)"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li style="--clr:red"><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div id="cnt2" class="content2">
-                <h2>Що таке Воркаут?</h2>
-                <p>Воркаут — це вулична гімнастика , яка може бути
+            <div class="container-Place">
+                <h1 id="containerPlaceItem">Де ми знаходимось:</h1>
+                <a id="containerPlaceItemMap" href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD%D0%B0+%D0%94%D0%B5%D0%BC'%D1%8F%D0%BD%D1%87%D1%83%D0%BA%D0%B0,+1%D0%90,+%D0%A0%D1%96%D0%B2%D0%BD%D0%B5,+%D0%A0%D1%96%D0%B2%D0%BD%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+33000/@50.6109948,26.2850892,19.08z/data=!4m5!3m4!1s0x472f13658f2300a7:0x9b25e84a0990e33c!8m2!3d50.6109258!4d26.2847552"><img src="img/Place.png" alt=""></a>
+            </div>
+            <div class="conteiner-box2">
+                <h2 id="Box2-h2">Що таке Воркаут?</h2>
+                <p id="Box2-p">Воркаут — це вулична гімнастика , яка може бути
                     віднесена до аматорського виду спорту, фізичної культури ( фітнесу ) і є спортивною субкультурою .
                     Включає виконання різних вправ на вуличних спортмайданчиках, а саме на турниках , брусах , шведських
-                    стінках, рукоходи та інші конструкції, або взагалі без їх використання (на землі). Основний акцент
-                    робиться на роботу з власною вагою та розвиток сили та витривалості. Люди, які захоплюються таким
-                    спортом, називають себе по-різному: воркаутери, вуличні (дворові) спортсмени чи атлети , вуличні
-                    гімнасти, турнікмени тощо.</p>
-                <div class="video2"><video muted autoplay loop src="video/video2.mp4"></video></div>
+                    стінках, рукоходи та інші конструкції, або взагалі без їх використання (на землі).</p>
+                <div id="Box2-video" class="conteiner-box2-video"><video muted autoplay loop src="video/video2.mp4"></video></div>
             </div>
-            <div id="TS" class="Training_schedule">
-                <h2>Розклад тренування</h2>
-                <img src="img/Розклад.jpg" alt="">
-                <p>Там де пустує місце може бути ваша індивідуалка😌</p>
+            <div class="container-Training_schedule">
+                <h2 id="container-Training_schedule-h2">Розклад тренування</h2>
+                <img id="container-Training_schedule-img" src="img/Розклад.jpg" alt="">
+                <p id="container-Training_schedule-p">Там де пустує місце може бути ваша індивідуалка😌</p>
             </div>
-            <div id="cnt3" class="content3">
+            <div class="container-Price">
+                <h1 id="container-Price-h1">Ціни на тренування</h1>
+                <ul>
+                    <li id="container-Price-li-1">Групове тренування: 600грн/місяць</li>
+                    <li id="container-Price-li-2">Індивідуальне: 1200грн/місяць</li>
+                    <li id="container-Price-li-3">Йога: 550грн/місяць</li>
+                </ul>
+            </div>
+            <div id="container-box3" class="conteiner-box3">
                 <h1>Наші тренера</h1>
-                <div class="box">
+                <div id="box3-item1" class="conteiner-box3-item">
                     <h3>Бодя Лисенко</h3>
                     <img src="img/БЛ.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab ipsa sequi quisquam perspiciatis
                         corrupti nam rem nihil corporis in reiciendis fugiat perferendis atque totam aliquid iste, unde
                         cupiditate eum!
                     </p>
-                    <div class="social">
+                    <div class="conteiner-box3-item-social_icon">
                         <ul>
                             <li style="--clr:#c32aa3"><a href="https://www.instagram.com/bodia.sem/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="box">
+                <div  id="box3-item2" class="conteiner-box3-item">
                     <h3>Сергій Бондар</h3>
                     <img src="img/СБ.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab ipsa sequi quisquam perspiciatis
                         corrupti nam rem nihil corporis in reiciendis fugiat perferendis atque totam aliquid iste, unde
                         cupiditate eum!
                     </p>
-                    <div class="social">
+                    <div class="conteiner-box3-item-social_icon">
                         <ul>
                             <li style="--clr:#c32aa3"><a href="https://www.instagram.com/bondar__sergey/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="box">
+                <!--<div id="box3-item3" class="conteiner-box3-item">
                     <h3>Діма Оксентюк</h3>
                     <img src="img/ДО.jpg" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab ipsa sequi quisquam perspiciatis
                         corrupti nam rem nihil corporis in reiciendis fugiat perferendis atque totam aliquid iste, unde
                         cupiditate eum!
                     </p>
-                    <div class="social">
+                    <div class="conteiner-box3-item-social_icon">
                         <ul>
                             <li style="--clr:#c32aa3"><a href="https://www.instagram.com/_dima_oksentiuk_/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
